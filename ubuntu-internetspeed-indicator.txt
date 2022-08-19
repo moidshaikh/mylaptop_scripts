@@ -1,0 +1,14 @@
+here is an app called indicator-multiload that displays CPU, memory, swap, load, etc. and also includes net speed.
+
+First, run the following commands to install the app:
+
+sudo apt update
+sudo apt install indicator-multiload gnome-tweaks gnome-shell-extensions gnome-shell-extension-appindicator
+
+Next, search your installed apps for "indicator" or "indicator multiload". Launch the app. It will show in the top bar. It usually shows a graph without numbers by default. If it doesn't show on the top bar at this time, you may need to use the Gnome tweak app to enable the appindicator extension.
+
+To display numbers, hover over the graph and then scroll up/down using the mouse wheel or touchpad. Scroll all the way up to disable number display. From this position, scroll down three clicks of the mouse wheel to display net speed.
+
+Then, right-click on the graph and select "Preferences". Under "Monitored Resources", you can enable or disable graphs. If you only want to show net speed, untick all the other boxes.
+
+You can also set the graph colors, update speed, etc.
